@@ -47,7 +47,6 @@ echo -e $r "3. Exit${endc}";
 echo -e "╭─user@root" |lolcat
 read -p "╰─#" pil;
 
-fi
 
 if [ $pil = 1 ]
 then
