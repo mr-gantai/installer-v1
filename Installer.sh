@@ -60,12 +60,8 @@ python2 dark.py
 fi
 
 if [ $pil = 2 ]
-then
-def cekip():
- print(f'[!] Mendapatkan IP..')
- re = requests.get('https://api.myip.com').json()
- ip = re['ip']
- print(f'[!] IP kamu : {ip}')
+then 
+ifconfig 
 fi 
 
 if [ $pil = 3 ] 
