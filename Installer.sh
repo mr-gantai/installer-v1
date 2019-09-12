@@ -15,6 +15,7 @@ red='\e[1;31m'
 green="\033[0;32m"
 
 echo "dianjurkan sebelum menginstall tools .. alangkah baik nya jika membaca readme.md terlebih dahulu
+dengan cara nano README.MD atau bisa juga langsung di lihat di https://github.com/mr-gantai/installer-v1
 agar tidak terjadi kegagalan penginstalan"
 read -p 'username : ' userinput1;
 #
