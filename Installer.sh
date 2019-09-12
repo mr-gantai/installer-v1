@@ -14,7 +14,8 @@ blue='\e[1;34m'                                            cyan='\e[1;36m'
 red='\e[1;31m'
 green="\033[0;32m"
 
-
+echo "dianjurkan sebelum menginstall tools .. alangkah baik nya jika membaca readme.md terlebih dahulu
+agar tidak terjadi kegagalan penginstalan"
 read -p 'username : ' userinput1;
 #
 if [ "${userinput1:-}" = "admin gantai" ]
