@@ -26,7 +26,7 @@ read -p 'password : ' userinput2;
 if [ "${userinput2:-}" = "gantaihacker2" ]
 then
 	clear
-fi
+
 
 
 echo -e "          \e[94m===========================================\e[0m";
@@ -42,6 +42,8 @@ echo -e "============================" | lolcat
 echo -e $r "2. Exit${endc}";
 echo -e "╭─user@root" |lolcat
 read -p "╰─#" pil;
+
+fi
 
 if [ $pil = 1 ]
 then
