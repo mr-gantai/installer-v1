@@ -61,7 +61,7 @@ fi
 
 if [ $pil = 2 ]
 then 
-ifconfig 
+git clone https://github.com/mr-gantai/installer-v1/ip
 fi 
 
 if [ $pil = 3 ] 
