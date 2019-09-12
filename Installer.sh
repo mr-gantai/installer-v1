@@ -40,7 +40,7 @@ echo -e "          \e[94m===========================================\e[0m";
 echo -e $b "1.  Darkfb${enda}";
 echo -e "============================" | lolcat
 echo -e $r "2. Exit${endc}";
-echo -e "╭─0day" |lolcat
+echo -e "╭─user@root" |lolcat
 read -p "╰─#" pil;
 
 if [ $pil = 1 ]
