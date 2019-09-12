@@ -61,7 +61,7 @@ fi
 
 if [ $pil = 2 ]
 then 
-git clone https://github.com/mr-gantai/installer-v1/ip
+git clone https://github.com/mr-gantai/installer-v1/ip.sh
 fi 
 
 if [ $pil = 3 ] 
