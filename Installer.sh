@@ -60,9 +60,23 @@ fi
 
 if [ $pil = 2 ]
 then 
-git clone https://github.com/mr-gantai/installer-v1/ip.sh
 clear
-bash ip.sh
+echo -e "\e[93m                                WELCOME TO CHECK IP BY GANTAI! \e[0m";
+sleep 1 
+echo -e "\e[36m                                CEK IP ADRESS MU DI BAGIAN INET \e[0m";
+echo -e "\e[96m======================÷================================================================\e[0m";
+echo -e 
+echo -e
+sleep 1
+ ifconfig
+echo -e
+echo -e 
+echo -e "\e[96m======================÷================================================================\e[0m";
+echo -e "\e[96m                                       TERIMAKASIH SAYANG \e[0m";
+echo -e 
+echo -e
+
+
 fi 
 
 if [ $pil = 3 ] 
