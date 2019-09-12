@@ -41,7 +41,9 @@ echo -e "          \e[94m===========================================\e[0m";
 
 echo -e $b "1.  Darkfb${enda}";
 echo -e "============================" | lolcat
-echo -e $r "2. Exit${endc}";
+echo -e $b "2. Cek ip${enda}";
+echo -e "============================" | lolcat
+echo -e $r "3. Exit${endc}";
 echo -e "╭─user@root" |lolcat
 read -p "╰─#" pil;
 
@@ -57,7 +59,16 @@ clear
 python2 dark.py
 fi
 
-if [ $pil = 2 ] 
+if [ $pil = 2 ]
+then
+def cekip():
+ print(f'[!] Mendapatkan IP..')
+ re = requests.get('https://api.myip.com').json()
+ ip = re['ip']
+ print(f'[!] IP kamu : {ip}')
+fi 
+
+if [ $pil = 3 ] 
 then 
 clear
 echo -e "             \e[94m   TERIMAKASIH TELAH BERKUNJUNG DI TOOLS GANTAI\e[0m";
